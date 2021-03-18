@@ -5,7 +5,8 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="guidestyle.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <style>
         html {overflow-y:scroll};
     </style>
@@ -16,7 +17,7 @@
             <b class="kolhozInc">
                 Руководство
             </b>
-            <a href="index.html" class="kolhozInc" style="font-size: 16px; padding-top: 2%;">
+            <a href="index.html" class="backTo">
                 (назад на главную страницу)
             </a>
             <a href="https://github.com/M4RKERGit/TeleBot" target="_blank" class="headerr">
@@ -28,11 +29,16 @@
             <a href="https://t.me/weather_test228_bot" target="_blank" class="headerl">
                 &nbspМой бот&nbsp |&nbsp
             </a>
-            
+            <img class="javaPic" src="images/java.png">
+            <img class="pythonPic" src="images/python.png">
+            <img class="weatherPic" src="images/weather.png">
+            <img class="pixPic" src="images/pixabay.png">
+            <img class="anekPic" src="images/baneks.png">
         </div>
-        <details class="selector" style="padding-top: 7%;">
+        <div class = "space"></div>
+        <details class="selector">
             <summary style="user-select: none;"><b>Основы</b></summary>
-            <div style="width: 30%;">
+            <div class="selectorText">
                 <p>Привет! Здесь ты можешь узнать, как пользоваться моим ботом. 
                 Начнём с того, что все команды, распознаваемые ботом, работают за счёт ключевых слов,
                 например, "Ютуб" или "Дефолт", которые обязательно должны содержаться в твоём сообщении.</p>
@@ -52,7 +58,7 @@
 
         <details class="selector">
             <summary style="user-select: none;"><b>Команды прогноза погоды</b></summary>
-            <div style="width: 30%;">
+            <div class="selectorText">
                 <p>Как уже было сказано, для получения краткой справки по погоде в конкретном городе, 
                 достаточно просто написать его название или скинуть координаты.
                 Кроме того, с недавнего времени бот создаёт учётную запись каждому пользователю, что ему хоть раз писал. 
@@ -69,7 +75,7 @@
 
         <details class="selector">
             <summary style="user-select: none;"><b>Команды для скачивания музыки</b></summary>
-            <div style="width: 30%;">
+            <div class="selectorText">
                <p>Самая тяжёлая категория команд для бота, позволяют найти любой трек или просто видео на YouTube 
                    длительностью до 15 минут и получить его в диалог в формате .mp3.
                    Выполняется около 15-30 секунд, но работает стабильно, треки загружаются с обложкой, и, зачастую, 
@@ -85,7 +91,7 @@
 
         <details class="selector">
             <summary style="user-select: none;"><b>Команды для поиска картинок</b></summary>
-            <div style="width: 30%;">
+            <div class="selectorText">
                <p>Эта категория выполняет поиск картинок в качестве 720р в базе PixaBay по тегам, указанным в запросе, и отсылает картинку в диалог. 
                    База довольно обширная и работает быстро, но, в силу её ориентированности на англоязычных пользователей, 
                    поэтому предпочтительно искать по тегам на английском.
@@ -99,7 +105,7 @@
 
         <details class="selector">
             <summary style="user-select: none;"><b>Команды генерации случайностей</b></summary>
-            <div style="width: 30%;">
+            <div class="selectorText">
                <p>Генерация случайного числа из диапазона, выбранного пользователем
                    <p>Синтаксис:</p>
                    <p>>> Рандом - выдаёт случайное число от 1 до 100</p>
@@ -112,7 +118,7 @@
 
         <details class="selector">
             <summary style="user-select: none;"><b>Команды для анекдотов с озвучкой и без</b></summary>
-            <div style="width: 30%;">
+            <div class="selectorText">
                <p>Присылает случайный анекдот с сайта baneks.ru и, при желании, озвучивает его
                    <p>Синтаксис:</p>
                    <p>>> Анек* - один случайный анекдот в текстовом формате</p>
@@ -135,6 +141,10 @@
             </div>
         </details>
 
+        <b class="powered">
+            Powered By
+        </b>
+        
 </body>
 
 <style type="text/css">

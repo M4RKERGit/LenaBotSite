@@ -13,7 +13,7 @@ body
 
 .kolhozInc
 {
-    padding-top: 27px;
+    padding-top: 1.5%;
     padding-bottom: 20px;
     padding-left: 25px;
     display: inline-block;
@@ -23,7 +23,7 @@ body
 
 .headerr
 {
-    padding-top: 35px;
+    padding-top: 1.8%;
     padding-bottom: 20px;
     padding-right: 25px;
     float: right;
@@ -33,7 +33,7 @@ body
 
 .headerc
 {
-    padding-top: 35px;
+    padding-top: 1.8%;
     padding-bottom: 20px;
     float: right;
     font-size: 20px;
@@ -42,7 +42,7 @@ body
 
 .headerl
 {
-    padding-top: 35px;
+    padding-top: 1.8%;
     padding-bottom: 20px;
     float: right;
     font-size: 20px;
@@ -51,7 +51,7 @@ body
 
 .headermid
 {
-    padding-top: 35px;
+    padding-top: 1.8%;
     padding-bottom: 20px;
     float: center;
     font-size: 30px;
@@ -77,7 +77,7 @@ body
 
 .botAva
 {
-    padding-top: 200px;
+    padding-top: 16%;
     display: block;
     margin: auto;
 }
@@ -107,18 +107,41 @@ img
     width: 50%;
 }
 
-.selector
+.space
 {
-    padding-top: 40px;
-    padding-left: 30px;
-    font-size: 24px;
-    float:left;
-    text-align:left;
-    width: 80%;
+    padding-top: 5%;
 }
 
-summary
+.backTo
 {
-    cursor: pointer;
-    outline: none;
+    padding-top: 2%;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    display: inline-block;
+    font-size: 16px;
+    float: left;
+}
+
+@media screen and (orientation: portrait)
+{
+    .shapka
+    {
+        height: 4.2%;
+    }
+    .headerr
+    {
+        padding-top: 2.2%;
+    }
+    .headerc
+    {
+        padding-top: 2.2%;
+    }
+    .headerl
+    {
+        padding-top: 2.2%;
+    }
+    .backTo
+    {
+        padding-top: 2.6%;
+    }
 }
